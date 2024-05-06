@@ -1,0 +1,48 @@
+LINHA1
+@media(max-width:770px) { --> comentei pq é melhor para a linha ficar do tamanho certo
+    #linha1 {
+       /* margin-top: 5%; */ --> A LINHA FICA NO MESMO NIVEL	
+    }
+}
+
+@media(max-width:720px) {
+    #TopicoAcesso{
+     width: 450px; --> para que o texto quebre a linha 
+    }
+}
+
+@media(max-width:586px) {
+    #linha1 {
+     /* display: none; */ --> apareceu a linha e estou tentando deixar ela fixa
+     top: 350px;
+     left: 140px;
+     position: fixed;
+   }
+}
+--> ADICIONEI AMBAS 
+
+@media(max-width:950px){
+    #linha1 {
+        width: 60%;
+     }
+}
+@media(max-width:830px){
+    #linha1 {
+        width: 65%;
+     }
+}
+
+#TopicoSobre{
+    top: 100px;
+    left: 200px;
+    position: absolute;
+    font-size: 50px; --> para que o texto nao ande
+}
+
+@media(max-width:586px) {
+     #TopicoSobre {
+      font-size:45px; --> mudei os para px
+      margin-left: -10%;
+      
+    }
+}

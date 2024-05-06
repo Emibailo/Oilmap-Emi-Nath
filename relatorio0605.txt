@@ -1,0 +1,43 @@
+Mudanças 06/05
+
+Foi juntado os códigos da Emily e da Nath. 
+A fonte da letra estava divergente, a parte do acesso estava com uma fonte diferente, a fonte padronizada é:
+font-family: 'Zen Kaku Gothic New', sans-serif;
+
+removi o  font-size em porcentagem da parte de responsividade em 1000px, pois estava em porcentagem e era um código sem necessidade.
+
+sobre nós média: 
+1040px -- 30px 
+600px -- 25px
+495px -- 20px
+340px -- 18px
+
+o que fazemos média: 
+1135px -- 25px
+955px -- 20px 
+
+acesso média: 
+1350px -- 150%
+1070px -- 140%
+1000px -- 160% !comentei o código aparentemente essa linha não tem funcionalidade, bem como não tem lógica
+950px -- 130% !comentei no código mudança insignificante
+870px -- 120% 
+860px -- 120% !código inútil, comentei
+800px -- 100%
+660px -- 90%
+536px -- 80%
+515px -- 80% !código copiado
+500px -- 130%
+484px -- 110%
+460px -- 90%
+
+ATENÇÃO dois códigos para 460px, contém divergencias, não alterei
+
+380px -- 80%
+360 e 340 códigos repetidos, removi
+
+ATENÇÃO - códigos referentes á responsividade das páginas citadas a cima que apresentaram inutilidade ou mesmo repetitividade, foram removidos. 
+reportado ao dia de hoje que o site apresenta padrões aceitas se referindo a font-size, a mudança ocorre pelo fato de haver divergência de conteúdo, no entando, 
+está visivelmente estético. 
+
+Código subido para a nuvem Git de Emily Bailo. 
